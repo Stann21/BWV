@@ -1,0 +1,617 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Standaard */
+.menuleft {
+	height: 100%; 
+	background-color: white;
+	position: fixed !important;
+	left: 0;
+	-webkit-box-shadow: 	inset -5px 0px 25px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    	inset -5px 0px 25px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:        		inset -5px 0px 25px 0px rgba(0, 0, 0, 0.2);
+	
+}
+
+@media (max-width:768px){
+	.menuleft {
+		 height: fit-content; 
+		 position: relative !important;
+		 z-index: 1;
+		-moz-box-shadow: 	inset 0px -10px 10px -2px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: inset 0px -10px 10px -2px rgba(0, 0, 0, 0.2);
+		box-shadow: 			inset 0px -10px 10px -2px rgba(0, 0, 0, 0.2);
+	}
+}
+
+.centerdiv{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+
+.menuright {
+	height: 100%; z-index: -2;  background: url('images/bgr.jpeg') no-repeat;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: fixed !important;
+	right: 0;
+	-webkit-box-shadow: 	inset 5px 0px 25px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    	inset 5px 0px 25px 0px rgba(0, 0, 0, 0.2);	
+	box-shadow:         	inset 5px 0px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:768px){
+	.menuright {
+		 height: 0%;
+	}
+}
+
+.paddingreset {
+	padding-left: 0px !Important;
+	padding-right: 0px !important;
+}
+
+.marginreset {
+	margin: 0px !important;
+}
+
+#addblock {
+	background-color: #fff
+}
+
+.block {
+	position: relative;
+	width: 25%;
+	padding-bottom: 25%;
+	margin: 1.66%;
+	overflow: hidden;
+	background-color: #d9d9d9;
+	color: #fff;
+	display:inline-block;
+}
+
+.block:hover {
+	background-color: #0099ff;
+}
+
+@media (max-width:1200px){
+	.block {
+		width: 30%;
+		padding-bottom: 30%;
+	}
+}
+
+.blockcontent {
+	position: absolute;
+	height: 90%;
+	width: 100%;
+	padding: 10% 5%;
+}
+
+@media (max-width: 500px) {
+	.blockcontent {
+		height: 0%;
+	}
+}
+
+.table {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.table-cell {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.container1 {
+	width: 100%;
+	background: #eee;
+	margin: 10px auto;
+	position: relative;
+	text-align:center;
+}
+
+.dashboard {
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+@media (max-width:992px){
+	.dashboard {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+@media (max-width:768px){
+	.dashboard {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+.whitespace {
+	padding-left: 50px !important;
+	padding-right: 50px !important;
+}
+
+@media (max-width:768px){
+	.whitespace {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+}
+
+.helper {
+	vertical-align: middle;
+	height: 100%;
+	display: inline-block;
+}
+/* End Standaard */
+
+
+
+/* Text */
+.title {
+	padding-bottom: 25px;
+}
+
+.extrabold {
+	font-family: OpenSans-ExtraBold;
+}
+
+.bold {
+	font-family: OpenSans-Bold;
+}
+
+.regular {
+	font-family: OpenSans-Regular;
+}
+
+.startuptitle {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.questiontitle {
+	font-size: 18px;
+}
+
+.date {
+	font-size: 16px;
+}
+
+@media (max-width:768px) {
+	.date {
+		font-size: 14px;
+	}
+}
+
+.qpagetitle {
+	font-size: 30px;
+	margin-top: 80px;
+}	
+
+.companyname {
+	font-size: 13px;
+}
+
+.grouptitle {
+	font-size: 18px;
+	margin-top: 25px;
+}
+
+.glyphiconquestion {
+	font-size: 20px;
+}
+
+/* End text */
+
+/* Left menu */
+.formlogout {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	color: #ff0099;
+}
+
+@media (max-width:768px){
+	.formlogout {
+		position: relative;
+		bottom: -5px;
+		padding-bottom: 5px;
+	}
+}
+
+.logout{
+	margin: 0 auto;
+}
+
+li:hover {
+	background-color: #0099ff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+li:hover > a {
+	color: #fff;
+}
+
+.active {
+	background-color: #0099ff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+/* End left menu */
+
+
+
+/* Images */
+.userimg{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.userimgsmall {
+	width: 75px;
+	height: 75px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.grouppicture {
+	width: 75px;
+	height: 75px;
+	position: relative;
+	overflow: hidden;
+}
+
+.imglogo{
+	width:70px; 
+	float:right;
+	margin-right: 35px;
+	margin-top: 10px;
+}
+
+@media (max-width:768px){
+	.imglogo{
+		display: none;
+	}
+}
+
+.grayscale {
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+}
+
+.startupblock:hover .grayscale,
+.block:hover .grayscale
+ {
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+}
+/* End images */
+
+
+
+/* Login page */
+.imglogo{
+	width:25%;
+	float:right;
+}
+
+.thumbnail.login{
+	background-color: white;
+	width: 400px;
+	min-width: 20%;
+	margin: 0 auto; 
+	-webkit-box-shadow: 10px 10px 96px 5px rgba(0,0,0,0.52);
+	-moz-box-shadow: 10px 10px 96px 5px rgba(0,0,0,0.52);
+	box-shadow: 10px 10px 96px 5px rgba(0,0,0,0.52);
+    text-align: center;
+    font-size: 18px;
+}
+
+.logoimg{
+	width: 60%;
+	height: 60%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("images/bgr.jpeg"); 
+    margin: 0 auto;
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* End login page */
+
+
+
+/*  Settings page */
+.flag {
+	height: 50px;
+	width 50px;
+}
+
+.flagbox {
+	margin-right: 25px;
+	float: left;
+}
+
+.marginbottom {
+	margin-bottom: 25px;
+}
+
+.labels {
+	clear: both;
+	display: block;
+	padding-top: 15px;
+	font-weight: normal;
+}
+
+.input {
+	background-color: #eeeeee;
+		border: 0px;
+		padding: 5px;
+}
+
+@media (max-width: 768px) {
+	.input {
+		width: 100%;
+	}
+}
+
+label > input{ /* HIDE RADIO */
+	visibility: hidden; /* Makes input not-clickable */
+	position: absolute; /* Remove input from document flow */
+}
+
+label > input + img{ /* IMAGE STYLES */
+	cursor:pointer;
+	opacity: 0.5;
+}
+
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+	opacity: 1;
+}
+
+/* End Settingspage */
+
+/* Overview */
+.exptitel {
+	background-color: #d9d9d9;
+	padding: 10px;
+	border: 1px solid gray;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 15px;
+	height: 42px;
+}
+
+.exptitel:hover {
+	border-top: 5px solid #0099ff;
+	background-color: #fff;
+	line-height: 12px;
+	border-bottom: 0px;
+}
+
+.exptitel:hover > .exptitela {
+	color: #0099ff;
+}
+
+.restitel {
+	background-color: #d9d9d9;
+	padding: 10px;
+	border: 1px solid gray;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 15px;
+	height: 42px;
+}
+
+.restitel:hover {
+	border-top: 5px solid orange;
+	background-color: #fff;
+	line-height: 12px;
+	border-bottom: 0px;
+}
+
+.restitel:hover > .restitela {
+	color: orange;
+}
+
+.resstyle {
+	border-top: 5px solid orange;
+	background-color: #fff;
+	line-height: 12px;
+	border-bottom: 0px;
+}
+
+.expstyle {
+	border-top: 5px solid #0099ff;
+	background-color: #fff;
+	line-height: 12px;
+	border-bottom: 0px;
+}
+
+@media (max-width: 768px){
+	.expstyle,
+	.resstyle	{
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+}
+
+.userinfo {
+	padding: 10px;
+	margin-bottom: 15px;
+	display: none;
+	box-shadow: 0px 0px 10px 0px rgba(83, 83, 83, 0.2);
+}
+
+.infobox {
+	height: 100px;
+	width: 100px;
+}
+
+.infobox:hover + .userinfo {
+	display: block;
+}
+
+.rowgroupuser {
+	margin-top: 50px;
+}
+/* End overview */
+
+/* Questions & Experiments */
+.expresbox {
+	width: 20%;
+	float: left;
+}
+
+.questionbox {
+	padding-top: 25px;
+}
+
+.answerbox {
+	background-color: #d9d9d9;
+	padding: 10px;
+}
+
+.Qanswerbox {
+	border-radius: 10px;
+	padding: 5px 10px;
+	margin-top: 5px;
+	width: 100%;
+	height: 300px;
+	max-width: 100%;
+	box-shadow: inset -2px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	border: 1px solid #A0A0A0;
+	resize: vertical;
+}
+
+.questionitems {
+	padding-top: 25px;
+}
+
+.helpblock {
+	display: none;
+}
+
+.showhelp:hover + .helpblock {
+	display: block;
+}
+
+.helpitem {
+	margin-bottom: 10px;
+}
+
+.progressdiv {
+	margin-top: 25px;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	display: inline-block;
+}
+
+.progressbox {
+	height:10px;
+	width: 10px;
+	margin: 1px;
+	text-align: left;
+	display: inline-block;
+	background-color: #a9a9a9;
+}
+
+.progressline {
+	width: 5%;
+	height: 0px;
+	border-top: 1px solid #a9a9a9;
+	margin: 5px;
+	text-align: left;
+	display: inline-block
+}
+
+#progressactive {
+	background-color: #0099ff;
+}
+
+/* End Questions & Experiments */
+
+
+
+/* Settings */
+
+.fileContainer {
+    overflow: hidden;
+    position: absolute;
+	padding-left: 20px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+.fileContainer:hover {
+	color: #0099ff;
+}
+
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.choosefile {
+	padding-left: 5px;
+}
+
+@media (max-width: 768px) {
+	.choosefile {
+		color: #0099ff;
+	}
+}
+
+/* End settings */
+
+
+
+/* Groups page */
+
+
+/* End groups page */
+
+
+
+/* Admin */
+.sheetsinput {
+	width: 100%;
+}
